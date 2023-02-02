@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+body{
+    background: linear-gradient(120deg,#DC1E1E,#B33A3A);
+    height: 50vh;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid silver;
+}
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+
+
+}
+nav{
+
+    padding-left: 60px;
+    position: absolute;
+    left: 70%;
+
+
+
+}
+nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    color:white;
+
+}
+.container h2{
+    font-size: 60px;
+    font-weight:100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: burlywood;
+
+}
+.container p{
+    font-size: 20px;
+    font-weight:50;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+
+}
+.fondo{
+    width: 400px;
+    position: absolute;
+    left: 40%;
+
+}
