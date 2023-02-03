@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 feb. 2023, 18:24:00
+    Author     : criss
+*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+body{
+  background: linear-gradient(120deg,#DC1E1E,#B33A3A);
+    height: 50vh;
+    overflow: hidden;
+}
+.container1{
+   background-image:url(../images/A.jpg);
+    box-sizing: border-box;
+    width: 200vw;
+    transform: translateX(-130px);
+    padding-left: 144px;
+    padding-right: 441px;
+    padding-top: 144px;
+  
+}
+.navbar h1{
+   position: absolute;
+    font-size: 40px;
+    top: 10px;
+    padding: 30px 0;
+    display: inline-block;
+}
+.botonProce{
+   position: relative;
+ 
+    margin: 10px 100px;
+    padding: 20px 0;
+     border:none;
+    background: none;
+    
+   border-radius: 10px;
+   display: inline-block;
+     right: 40px;
+     height: 10px;
+    top:10px;
+}
+.navbar p{
+    position: relative;
+    padding: 10px 0;
+}
