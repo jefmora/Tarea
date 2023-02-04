@@ -7,34 +7,55 @@
     font-family: 'Itim', cursive;
 }
 body{
-    background: linear-gradient(120deg,#DC1E1E,#B33A3A);
-    height: 50vh;
-    overflow: hidden;
+    background: #AD3030;
+    overflow: auto;
 }
 .container{
-    height: 100vh;
-    width: 100%;
-    
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
 }
 .navbar{
-    width: 100%;
-    height: 15vh;
+    width: 2540px;
+    height: 200px;
     margin: auto;
     display: flex;
     align-items: center;
     position: relative;
     border-bottom: 2px solid silver;
 }
+.secciones{
+    width: 200px;
+    height: 500px;
+    border-right: 2px solid silver;
+    margin-top: 10px;
+}
+.secciones h2{
+    margin-top: 15px;
+    
+}
+.secciones h2 a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    
+}/* position: absolute;
+    text-align: center;
+    background: black;
+    top:450px;
+    left: 350px;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;*/
 
 .logo{
-    width: 80px;
+     position: absolute;
+    height: 100px;
     cursor: pointer;
 
 
@@ -63,22 +84,7 @@ nav ul li a{
     color:white;
 
 }
-.container h2{
-    font-size: 60px;
-    font-weight:100;
-    margin-top: 24px;
-    margin-bottom: 15px;
-    color: burlywood;
 
-}
-.container p{
-    font-size: 20px;
-    font-weight:50;
-    margin-top: 24px;
-    margin-bottom: 15px;
-    color: black;
-
-}
 .fondo{
     width: 400px;
     position: absolute;

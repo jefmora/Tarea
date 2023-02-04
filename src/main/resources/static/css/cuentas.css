@@ -15,7 +15,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-family: 'Itim', cursive;
 }
 body{
-  background: linear-gradient(120deg,#DC1E1E,#B33A3A);
+  background: #AD3030;
     height: 50vh;
     overflow: hidden;
 }
