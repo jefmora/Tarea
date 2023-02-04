@@ -16,7 +16,7 @@ body{
 }
 .top{
     position: absolute;
-    background:linear-gradient(120deg,red,#DA2727) ;
+    background:#AD3030 ;
     width: 2540px;
     height: 200px;
 }
