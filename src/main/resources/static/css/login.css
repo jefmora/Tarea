@@ -2,32 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&display=swap');
 
 *{
-    margin:0;
+    margin:auto;
     padding: 0;
+    border: 0;
     font-family: 'Itim', cursive;
     box-sizing: border-box;
+    
 
 }
 body{
     background: #DEDEDE;
-    height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
 }
 .top{
+    position: absolute;
     background:linear-gradient(120deg,red,#DA2727) ;
-    height: 15vh;
+    width: 2540px;
+    height: 200px;
+}
+
+.titulo{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    font-size: 40px;
+    width: 600px;
+    height: 50px;
     overflow: hidden;
 }
 .logo{
-    height: 9vh;
+    position: absolute;
+    height: 100px;
+    left: 50px;
+    top: 50px;
     cursor: pointer;
 }
-
+.duda{
+    position: absolute;
+    left: 2400px;
+    top:50px;
+    height: 70px;
+    cursor: pointer;
+}
 .center{
 
     position: absolute;
-    top:40%;
-    left:50%;
+    top:600px;
+    left:1250px;
     width: 800px;
     height: 550px;
     background:linear-gradient(120deg,gray,#ABA7A7) ;
@@ -58,7 +79,7 @@ form .txt_field{
 
 }
 .txt_field input{
-    width: 100%;
+    width: 750px;
     padding: 0 5px;
     height: 40px;
     font-size: 16px;
@@ -70,8 +91,8 @@ form .txt_field{
     position: absolute;
     text-align: center;
     background: black;
-    top:75%;
-    left: 45%;
+    top:450px;
+    left: 350px;
     text-decoration: none;
     color: white;
     font-size: 40px;
