@@ -17,7 +17,7 @@ body{
 .top{
     position: absolute;
     background:#AD3030 ;
-    width: 2540px;
+    width: 100%;
     height: 200px;
 }
 
@@ -50,9 +50,10 @@ body{
     left:1250px;
     width: 800px;
     height: 550px;
-    background:linear-gradient(120deg,gray,#ABA7A7) ;
+    background:white;
     border-radius: 10px;
     transform: translate(-50%,-50%);
+
 
 }
 .center h1{
@@ -60,15 +61,14 @@ body{
     text-align: center;
     border-bottom: 2px solid silver;
     padding: 20px 0;
-    color: white;
-    background:  linear-gradient(120deg,black,#413F3F);
+    color: black;
+    background: #AD3030;
 
 }
 .center form{
 
     padding: 40px 40px;
     box-sizing: border-box;
-    background: none;
 }
 form .txt_field{
 
@@ -78,22 +78,22 @@ form .txt_field{
 
 }
 .txt_field input{
-    width: 750px;
+    width: 670px;
     padding: 0 5px;
     height: 40px;
     font-size: 16px;
-    border-bottom: white;
+    border: 1px solid black;
     background: none;
-
+    margin-bottom: 15px;
 }
 .botonLogin a{
     position: absolute;
     text-align: center;
-    background: black;
+    background: #AD3030;
     top:450px;
-    left: 350px;
+    left: 340px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }

@@ -15,174 +15,167 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-family: 'Itim', cursive;
 }
 body{
-  background: #AD3030;
-    height: 50vh;
+    background: #AD3030;
     overflow-y: scroll;
-   overflow-x: hidden;
+    overflow-x: hidden;
 }
 .container1{
-   background-image:url(../images/A.jpg);
+    position: absolute;
     box-sizing: border-box;
-    width: 200vw;
-    transform: translateX(-130px);
-    padding-left: 144px;
-    padding-right: 441px;
-    padding-top: 100px;
-    margin-top: 144px;
-  
+    background: #DEDEDE;
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
 }
 .conteiner3{
-   background-image:url(../images/A.jpg);
+    position: absolute;
+    background: #DEDEDE;
     box-sizing: border-box;
-    width: 200vw;
-    transform: translateX(-130px);
-    padding-left: 144px;
-    padding-right: 441px;
-    padding-top: 200px;
-    margin-top: 100px;
-  
+    width: 100%;
+    height: 300px;
+    margin-top: 600px;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+
 }
 .navbar h1{
-   position: absolute;
+    position: absolute;
     font-size: 40px;
-    top: 10px;
-    padding: 30px 0;
     display: inline-block;
-    margin-left: 650px;
 }
 .conteiner3 h1{
-   position: absolute;
+    position: absolute;
     font-size: 40px;
-    top: 10px;
-    padding: 30px 0;
     display: inline-block;
-    margin-left: 650px;
 }
-.botonProce{
-   position: relative; 
-    padding: 20px 0;
-     border:none;
-    background: none;
-    margin-left: 850px;
+.botonProce a{
+    position: relative;
+    text-decoration: none;
+    background: #AD3030;
+    color: black;
+    top: 50px;
+    margin-left: 800px;
+    font-size: 30px;
 }
-.botonProcec{
-   position: relative;
-     margin-top: -10px;
-    padding: 20px 0;
-     border:none;
-    background: none;
-   display: inline-block;
-    margin-left: 850px;
+.botonProcec a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    background: #AD3030;
+    top: 50px;
+    margin-left: 800px;
+    font-size: 30px;
 }
 .navbar p{
     position: relative;
     padding: 10px 0;
 }
 .container2{
-    height: 100vh;
+    height: 150px;
     width: 100%;
     margin-top: -160px;
     background-position: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: fixed;
     z-index: 100;
+    margin-top: 0px;
     float: left;
-   
+
 }
 .navbar1 {
     width: 100%;
-    height: 13vh;
-    margin-left: -95px;
+    height: 150px;
     display: flex;
     align-items: center;
-    position: relative;
+    position: absolute;
     background-color: #AD3030;
-    
+
 }
+
 nav ul li{
 
     list-style: none;
     display: inline-block;
-    margin: 0px 20px;
-  
- 
-
+    margin: 0px 10px;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
-    color:white;
+}
+
+nav{
+    padding-left: 2000px;
+}
+.txt_field1{
+    margin-left: 650px;
+    padding: 15px 0;
+}
+.txt_field2{
+    margin-left: 650px;
+}
+.txt_field3{
+    margin-left: 650px;
+}
+.txt_cheque{
+    margin-left: 650px;
+    padding: 10px 0;
+}
+.txt_cheque1{
+    margin-left: 650px;
+    padding: 15px 0;
+}
+.container4{
+    position: absolute;
+    background: #DEDEDE;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    margin-top: 1000px;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
 
 }
-nav{
-      padding-left: 1400px;
-  }
-  .txt_field1{
-      margin-left: 650px;
-      padding: 15px 0;
-  }
-  .txt_field2{
-      margin-left: 650px;
-  }
-  .txt_field3{
-      margin-left: 650px;
-  }
-  .txt_cheque{
-      margin-left: 650px;
-      margin-top: -100px;
-      padding: 10px 0;
-  }
-  .txt_cheque1{
-         margin-left: 650px;
-         padding: 15px 0;
-  }
-  .container4{
-     background-image:url(../images/A.jpg);
-    box-sizing: border-box;
-    width: 200vw;
-    transform: translateX(-130px);
-    padding-left: 144px;
-    padding-right: 441px;
-    padding-top: 100px;
-    margin-top: 130px;
-    margin-bottom: 130px;
-    
-  }
-  .container4 h1{
-      position: absolute;
+.container4 h1{
+    position: absolute;
     font-size: 40px;
     top: 10px;
     padding: 30px 0;
     display: inline-block;
+}
+.txt_cuenta{
     margin-left: 650px;
-  }
-  .txt_cuenta{
-      margin-left: 650px;
-      padding: 15px 0;
-      display: block;
-  }
-  .txt_cuenta1{
-      margin-left: 650px;
-      display: block;
-  }
-  .txt_cuenta2{
-      margin-left: 650px;
-      padding: 15px 0;
-  }
-  .txt_cuenta0{
-         margin-left: 650px;
-         padding: 15px 0;
-  }
-  .botonCon{
-      position: relative; 
-    padding: 20px 0;
-     border:none;
-    background: none;
-    margin-left: 850px;
-  }
-  .navbar1 img{
-     margin-left: 15px;
-  }
+    padding: 15px 0;
+    display: block;
+}
+.txt_cuenta1{
+    margin-left: 650px;
+    display: block;
+}
+.txt_cuenta2{
+    margin-left: 650px;
+    padding: 15px 0;
+}
+.txt_cuenta0{
+    margin-left: 650px;
+    padding: 15px 0;
+}
+.txt_cuenta0 a{
+    text-decoration: none;
+    background: gray;
+    color: black;
+    
+}
+.botonCon a{
+    position: absolute;
+    text-decoration: none;
+    background: #AD3030;
+    color: black;
+    margin-top: 30px;
+    margin-left: 800px;
+    font-size: 30px;
+}
+.navbar1 img{
+    margin-left: 15px;
+}
