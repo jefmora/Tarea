@@ -33,7 +33,9 @@ body{
     height: 120px;
     display: flex;
     align-items: center;
-    background-color: crimson;
+    background: #AD3030;
+    border-bottom: 3px solid black;
+
 }
 
 .navbar2 img{
