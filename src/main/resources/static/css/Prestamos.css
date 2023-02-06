@@ -1,0 +1,98 @@
+/* 
+    Created on : Feb 6, 2023, 4:28:33 PM
+    Author     : jhults
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+body{
+    background: #AD3030;
+    overflow: auto;
+}
+.barra{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    margin-top: -110px;
+    background-position: center;
+    position: fixed;
+    z-index: 100;
+    float: left;
+}
+.navbarJP{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background: #AD3030;
+    border-bottom: 3px solid black;
+
+}
+
+.navbarJP img{
+    position: absolute;
+    margin-left: 15px;
+}
+
+.menuJP{
+    position: absolute;
+    left: 70%;
+}
+.navbarJP nav ul li{
+    margin-right: 20px;
+    list-style: none;
+    display: inline-block;
+}
+.navbarJP nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color:white;
+}
+
+.Prestamos{
+    margin-top: 90px;
+    width: 50vw;
+    transform: translateX(-100px);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+
+}
+
+.Prestamos h1{
+    border-bottom: 2px solid silver;
+    margin-top: -500px;
+    margin-left: 15px;
+    font-size: 40px;
+}
+.Prestamos img{
+    height: 350px ;
+    width: 350px;
+    margin-left: 200px;
+    margin-top:100px;
+}
+.Transaccion nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    margin-top: 15px;
+
+
+}
+
+.Transaccion nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color:black;
+
+
+}
