@@ -47,33 +47,61 @@ body{
 .principal{
     position: absolute;
     width: 800px;
-    height: 500px;
-    left: 300px;
+    height: 1500px;
+    left: 30%;
     top: 220px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 
 }
 .principal h2{
-
+    position: absolute;
     font-size: 40px;
     color: white;
+    border-bottom: 2px solid white;
+    left: 25%;
 }
 .cuadrado{
     background: white;
     position: absolute;
-    width:  600px;
+    width:  650px;
     height: 300px;
     top: 100px;
-    left: 100px;
+    left: 80px;
 }
 .cuadrado h3{
     background: #7C7676;
-    width: 600px;
+    width: 100%;
     color: black;
     position: absolute;
     font-size: 30px;
     border-bottom: 2px solid black;
     color:black;
 
+}
+.informacion {
+    position: absolute;
+    width: 100%;
+    margin-top: 63px;
+    height: 237px; 
+    display: inline-block;
+}
+.cuenta1 p{
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+}
+.cuenta2 p{
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 52px;
+    margin-left: 5px;
+    margin-top: 10px; 
 }
 .barraCuenta{
     position: absolute;
@@ -127,4 +155,47 @@ body{
     position: absolute;
     left: 40%;
 
+}
+.cuadrado2{
+    background: white;
+    position: absolute;
+    width:  650px;
+    height: 300px;
+    top: 600px;
+    left: 80px;
+}
+.cuadrado2 h3{
+    background: #7C7676;
+    width: 100%;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    color:black;
+
+}
+.cuadrado2 h4{
+    font-size: 19px;
+    display: inline-block;
+    margin-right: 120px;
+    margin-left: 5px;
+}
+.ahorro{
+    position: absolute;
+    height: 300px;
+    left: 1800px;
+    top: 250px;
+    
+}
+.transaccion{
+    position: absolute;
+    height: 300px;
+    left: 1800px;
+    top: 750px;
+}
+.inversion{
+    position: absolute;
+    height: 300px;
+    left: 1800px;
+    top: 1250px;
 }
