@@ -14,85 +14,138 @@ body{
     background: #AD3030;
     overflow: auto;
 }
-.barra{
-    position: absolute;
-    width: 100%;
-    height: 120px;
-    margin-top: -110px;
-    background-position: center;
-    position: fixed;
-    z-index: 100;
-    float: left;
-}
-.navbarJP{
-    position: absolute;
-    width: 100%;
-    height: 120px;
+.navbar{
+    width: 2540px;
+    height: 200px;
     display: flex;
     align-items: center;
-    background: #AD3030;
-    border-bottom: 3px solid black;
-
+    position: relative;
+    border-bottom: 2px solid silver;
 }
-
-.navbarJP img{
+.principal{
     position: absolute;
-    margin-left: 15px;
+    width: 1600px;
+    height: 1500px;
+    left: 400px;
+    top: 220px;
 }
+.principal h2{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    left: 700px;
+}
+.cuadrado{
+    background: white;
+    position: absolute;
+    width:  1200px;
+    height: 500px;
+    top: 100px;
+    left: 200px;
+}
+.cuadrado h3{
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    left: 550px;
 
-.menuJP{
+}
+.principal p {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 25px;
+    left: 550px;
+}
+.principal ul li{
+    position: relative;
+    font-size: 25px;
+    top:100px;
+    left: 550px;
+    
+}
+.logo{
+    position: absolute;
+    height: 100px;
+    cursor: pointer;
+    left: 50px;
+    border-bottom: 2px solid black;
+}
+.cuadrado h3 a{
+    color: white;
+    background: #AD3030;
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    left: 250px;
+    top: 300px;
+
+}
+.viaje{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    
+}
+.menu{
+
+    padding-left: 60px;
     position: absolute;
     left: 70%;
-}
-.navbarJP nav ul li{
-    margin-right: 20px;
-    list-style: none;
-    display: inline-block;
-}
-.navbarJP nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    color:white;
-}
 
-.Prestamos{
-    margin-top: 90px;
-    width: 50vw;
-    transform: translateX(-100px);
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
+
 
 }
-
-.Prestamos h1{
-    border-bottom: 2px solid silver;
-    margin-top: -500px;
-    margin-left: 15px;
-    font-size: 40px;
-}
-.Prestamos img{
-    height: 350px ;
-    width: 350px;
-    margin-left: 200px;
-    margin-top:100px;
-}
-.Transaccion nav ul li{
+.menu ul li{
 
     list-style: none;
     display: inline-block;
     margin: 0px 20px;
-    margin-top: 15px;
 
 
 }
-
-.Transaccion nav ul li a{
+.menu ul li a{
     text-decoration: none;
-    color: black;
     font-size: 20px;
-    color:black;
+    color:white;
 
+}
+.cuadrado2{
+    background: white;
+    position: absolute;
+    width:  1200px;
+    height: 500px;
+    top: 900px;
+    left: 200px;
+}
+.cuadrado2 h3{
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    left: 550px;
+
+}
+.cuadrado2 p {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 25px;
+    left: 550px;
+}
+.cuadrado2 ul li{
+    position: relative;
+    font-size: 25px;
+    top:100px;
+    left: 550px;
+    
+}
+.cuadrado2 h3 a{
+    color: white;
+    background: #AD3030;
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    left: 250px;
+    top: 300px;
 
 }
